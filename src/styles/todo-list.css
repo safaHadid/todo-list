@@ -1,0 +1,71 @@
+.TodoList{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    /* max-width: 600px; */
+    margin: 0 auto;
+}
+
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 500px;
+    max-height: 500px; /* Set the maximum height of the container */
+  overflow-y: auto;
+}
+
+.container::-webkit-scrollbar {
+  width: 8px; /*Width of the scrollbar*/
+}
+
+.container::-webkit-scrollbar-track {
+  background-color: #dbdada; /* Track color */
+  border-radius: 5px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: #b3b3b3; /* Thumb color */
+  border-radius: 5px; /* Roundness of the thumb */
+}
+
+h3{
+  text-align: center;
+}
+
+.input-and-button{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px; /* Add spacing between input and button */
+  }
+  
+  .add-button {
+    padding: 10px 20px;
+    background-color: #135d52;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #278173; /* Darken color on hover */
+  }
+
+  ul{
+    list-style: none;
+    padding-left: 0%;
+  }
+
+  

@@ -1,0 +1,35 @@
+.ListItem {
+    display: flex;
+    background-color: #fff; /* Set background color for the todo item */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Apply box shadow */
+    color: black;
+  }
+
+  .todo-link {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+  }
+
+  li{
+    cursor: default;
+    overflow: hidden; /* Hide overflow content */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Display ellipsis (...) when text overflows */
+  }
+
+  .ListItem .icon{
+    cursor: pointer;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  .editAndDeleteIcons{
+    cursor: pointer;
+        margin-left: auto; 
+        padding-left: 10px;
+  }
